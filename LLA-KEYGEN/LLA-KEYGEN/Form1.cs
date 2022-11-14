@@ -65,7 +65,7 @@ namespace LLA_KEYGEN
 					en.BackColor = Color.Red;
 				}
 				en.Text = end.ToString();
-				File.AppendAllText(Path.GetFullPath(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), ".")) + "\\LLA.log", "Unit ID: " + RID.Text + "; RSN: " + IN.Text + "LLA KEY: " + outbox.Text + Environment.NewLine);
+				File.AppendAllText(Path.GetFullPath(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), ".")) + "\\LLA.log", "Unit ID: " + RID.Text + "; RSN: " + IN.Text + "; LLA KEY: " + outbox.Text + Environment.NewLine);
 			}
 			catch (Exception ex)
 			{
