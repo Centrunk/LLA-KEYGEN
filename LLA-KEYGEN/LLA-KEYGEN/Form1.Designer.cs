@@ -35,6 +35,8 @@
 			this.label2 = new System.Windows.Forms.Label();
 			this.button1 = new System.Windows.Forms.Button();
 			this.en = new System.Windows.Forms.Label();
+			this.RID = new System.Windows.Forms.TextBox();
+			this.label3 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// Gen
@@ -97,6 +99,22 @@
 			this.en.Size = new System.Drawing.Size(0, 15);
 			this.en.TabIndex = 6;
 			// 
+			// RID
+			// 
+			this.RID.Location = new System.Drawing.Point(241, 26);
+			this.RID.Name = "RID";
+			this.RID.Size = new System.Drawing.Size(90, 23);
+			this.RID.TabIndex = 7;
+			// 
+			// label3
+			// 
+			this.label3.AutoSize = true;
+			this.label3.Location = new System.Drawing.Point(258, 63);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(51, 15);
+			this.label3.TabIndex = 8;
+			this.label3.Text = "Radio ID";
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -104,6 +122,8 @@
 			this.BackgroundImage = global::LLA_KEYGEN.Properties.Resources.CENTEX_TRUNKED_RADIO_SYSTEM_v2_1;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(800, 115);
+			this.Controls.Add(this.label3);
+			this.Controls.Add(this.RID);
 			this.Controls.Add(this.en);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.label2);
@@ -128,5 +148,7 @@
 		private Label label2;
 		private Button button1;
 		private Label en;
+		private TextBox RID;
+		private Label label3;
 	}
 }
